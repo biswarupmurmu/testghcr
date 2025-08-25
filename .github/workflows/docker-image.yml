@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # Allow manual trigger of the workflow
 
 env:
-  IMAGE_NAME: ${{ github.repository_owner }}/${{ github.repository }}
+  IMAGE_NAME: ghcr.io/${{ github.repository }}
 
 jobs:
   build-and-push:

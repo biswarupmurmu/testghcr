@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag helloworld:latest
     - name: Push Docker image to GHCR
-      run: docker push ghcr.io/${{ github.repository }}/helloworld:latest
+      run: docker push helloworld:latest
